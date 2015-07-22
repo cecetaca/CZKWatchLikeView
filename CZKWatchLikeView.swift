@@ -28,7 +28,7 @@ class CZKWatchLikeView: UIView {
         
         self.addSubview(nameLabel)
     }
-
+    
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.backgroundColor = UIColor.greenColor()
