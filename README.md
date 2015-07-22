@@ -23,6 +23,16 @@ view.addSubview(testView)
 
 ```
 
+Now you can set the text of the nameLabel yourself or automagically:
+```swift
+//Good old way
+testView.text = "CT"
+
+//Automagically
+testView.setTitleFromFullName("Cecilio Tamarit") //Will display "CT"
+
+```
+
 As you can see, once more, it's a very simple thing. I was just testing around and decided to commit. :-)
 (Again. I do that now, apparently.)
 
